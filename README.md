@@ -13,6 +13,7 @@ pip install mwrogue pandas
 ```
 
 Credentials: the scripts log in with `AuthCredentials(user_file="me")`. The first run prompts for your Leaguepedia bot username and password and saves them under `~/.config/mwcleric`. They can instead come from the environment variables `WIKI_USERNAME_ME` and `WIKI_PASSWORD_ME`. Never commit credentials.
+
 For more information about Leaguepedia API authentication and credentials, see the [Leaguepedia API documentation](https://lol.fandom.com/wiki/Help:Leaguepedia_API).
 ## Run order
 
